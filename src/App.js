@@ -10,7 +10,9 @@ function App() {
   const [contacts, setContacts] = useState([])
   const [isLoading, setIsLoading] = useState(false)
 
-  axios().then(data => {
+  axios(
+    'https://github.com/Karantir-dev/clients_list/blob/main/src/clients.json',
+  ).then(data => {
     console.log(data)
   })
 
