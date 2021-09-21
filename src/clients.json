@@ -5,7 +5,9 @@
     "name": "Александра Александрова Александровна",
     "number": "095 555 55 55",
     "messenger": "viber",
-    "date": "2021-09-21T08:04:33.454Z"
+    "date": "2021-09-21T08:04:33.454Z",
+    "isRead": false,
+    "id": 1
   },
   {
     "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, temporibus nostrum commodi quibusdam autem, distinctio ipsum labore eum perferendis iste ducimus ipsam aliquid, expedita doloremque iure aperiam error sit. Unde.",
@@ -13,7 +15,9 @@
     "name": "Кузнецов Александр Александрович",
     "number": "095 555 55 55",
     "messenger": "telegram",
-    "date": "2021-09-21T08:04:33.454Z"
+    "date": "2021-09-21T08:04:33.454Z",
+    "isRead": false,
+    "id": 2
   },
   {
     "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, temporibus nostrum commodi quibusdam autem, distinctio ipsum labore eum perferendis iste ducimus ipsam aliquid, expedita doloremque iure aperiam error sit. Unde.",
@@ -21,7 +25,9 @@
     "name": "Александра Александрова Александровна",
     "number": "095 555 55 55",
     "messenger": "viber",
-    "date": "2021-09-21T08:04:33.454Z"
+    "date": "2021-09-21T08:04:33.454Z",
+    "isRead": false,
+    "id": 3
   },
   {
     "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, temporibus nostrum commodi quibusdam autem, distinctio ipsum labore eum perferendis iste ducimus ipsam aliquid, expedita doloremque iure aperiam error sit. Unde.",
@@ -29,7 +35,9 @@
     "name": "Кузнецов Александр Александрович",
     "number": "095 555 55 55",
     "messenger": "telegram",
-    "date": "2021-09-21T08:04:33.454Z"
+    "date": "2021-09-21T08:04:33.454Z",
+    "isRead": true,
+    "id": 4
   },
   {
     "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, temporibus nostrum commodi quibusdam autem, distinctio ipsum labore eum perferendis iste ducimus ipsam aliquid, expedita doloremque iure aperiam error sit. Unde.",
@@ -37,7 +45,9 @@
     "name": "Александра Александрова Александровна",
     "number": "095 555 55 55",
     "messenger": "viber",
-    "date": "2021-09-21T08:04:33.454Z"
+    "date": "2021-09-21T08:04:33.454Z",
+    "isRead": true,
+    "id": 5
   },
   {
     "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, temporibus nostrum commodi quibusdam autem, distinctio ipsum labore eum perferendis iste ducimus ipsam aliquid, expedita doloremque iure aperiam error sit. Unde.",
@@ -45,7 +55,9 @@
     "name": "Кузнецов Александр Александрович",
     "number": "095 555 55 55",
     "messenger": "telegram",
-    "date": "2021-09-21T08:04:33.454Z"
+    "date": "2021-09-21T08:04:33.454Z",
+    "isRead": false,
+    "id": 6
   },
   {
     "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, temporibus nostrum commodi quibusdam autem, distinctio ipsum labore eum perferendis iste ducimus ipsam aliquid, expedita doloremque iure aperiam error sit. Unde.",
@@ -53,6 +65,8 @@
     "name": "Александра Александрова Александровна",
     "number": "095 555 55 55",
     "messenger": "viber",
-    "date": "2021-09-21T08:04:33.454Z"
+    "date": "2021-09-21T08:04:33.454Z",
+    "isRead": true,
+    "id": 7
   }
 ]

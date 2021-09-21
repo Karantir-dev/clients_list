@@ -1,7 +1,7 @@
 import s from './Contact.module.css'
 
-const Contact = function ({ params }) {
-  const { name, gender, messenger, number, text, date } = params
+const Contact = function ({ contact }) {
+  const { name, gender, messenger, number, text, date, isRead } = contact
   return (
     <>
       <div className={s.gender}>
