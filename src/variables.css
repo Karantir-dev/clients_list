@@ -1,0 +1,10 @@
+:root {
+  --bacground-color: #f9faff;
+  --main-font-color: #333;
+  --table-header-color: #eaf2ff;
+  --date-time-color: #8e8e93;
+  --text-color: #8b91dd;
+  --female-color: rgba(246, 87, 110, 0.4);
+  --male-color: rgba(139, 145, 221, 0.4);
+  --accent-number-color: #2c7dfa;
+}

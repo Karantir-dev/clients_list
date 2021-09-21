@@ -1,1 +1,9 @@
 @import 'modern-normalize/modern-normalize.css';
+@import './variables.css';
+
+body {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: var(--main-font-color);
+  background-color: var(--bacground-color);
+}
