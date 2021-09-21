@@ -10,11 +10,11 @@ function App() {
   const [contacts, setContacts] = useState([])
   const [isLoading, setIsLoading] = useState(false)
 
-  axios(
-    'https://github.com/Karantir-dev/clients_list/blob/main/src/clients.json',
-  ).then(data => {
-    console.log(data)
-  })
+  axios('https://Karantir-dev.github.io/clients_list/src/clients.json').then(
+    ({ data }) => {
+      console.log(data)
+    },
+  )
 
   return (
     <div className="App">
