@@ -1,8 +1,10 @@
 import Icon from '../Icon'
+import Highlighter from '../Highlighter/Highlighter'
+
 import s from './Contact.module.css'
 
-const Contact = function ({ contact }) {
-  const { name, gender, messenger, number, text, date, isRead } = contact
+const Contact = function ({ contact, query }) {
+  const { name, gender, messenger, number, text, date } = contact
 
   return (
     <>
@@ -18,7 +20,7 @@ const Contact = function ({ contact }) {
 
       <div>
         <span className={s.name}>{name}</span>
-        <span className={s.number}>{number}</span>
+        <Highlighter number={number} query={query} />
       </div>
 
       <p className={s.text}>{text}</p>

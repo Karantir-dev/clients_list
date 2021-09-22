@@ -33,17 +33,14 @@
   text-overflow: ellipsis;
 }
 
-.number {
-  display: block;
-  max-width: 170px;
-  margin-top: 8px;
-}
-
 .text {
   width: 400px;
   height: 30px;
   margin: auto 70px;
   overflow: hidden;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
   color: var(--text-color);
 }
 

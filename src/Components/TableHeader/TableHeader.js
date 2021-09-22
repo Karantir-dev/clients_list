@@ -1,13 +1,14 @@
 import Icon from '../Icon'
+
 import s from './TableHeader.module.css'
 
-const TableHeader = function () {
+const TableHeader = function ({ quantity, fetchContacts }) {
   return (
     <div className={s.wrapper}>
-      <button type="button" className={s.refreshBtn}>
+      <button className={s.refreshBtn} type="button" onClick={fetchContacts}>
         <Icon className={s.icon} name="refresh" size="15px" />
       </button>
-      <span>Знайдено 8 клієнтів</span>
+      <span>Знайдено {quantity} клієнтів</span>
     </div>
   )
 }

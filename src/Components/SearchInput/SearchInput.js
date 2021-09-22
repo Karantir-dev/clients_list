@@ -12,7 +12,7 @@ const SearchInput = function ({ query, setQuery }) {
         mask="999 999 99 99"
         maskChar=" "
         value={query}
-        onChange={e => setQuery(e.target.value)}
+        onChange={e => setQuery(e.currentTarget.value)}
       />
       <button
         className={s.btnCancel}
