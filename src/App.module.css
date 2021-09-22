@@ -6,3 +6,10 @@
   justify-content: center;
   align-items: center;
 }
+
+.pagination {
+  margin-left: auto;
+  margin-top: 10px;
+  color: #2c7dfa;
+  font-weight: 500;
+}

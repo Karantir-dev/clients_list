@@ -1,0 +1,60 @@
+.gender {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+  border-radius: 50%;
+  position: relative;
+  border: 2px solid #fff;
+  vertical-align: middle;
+  background-color: var(--male-color);
+  box-shadow: var(--shadow);
+}
+
+.messenger {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  position: absolute;
+  bottom: 0;
+  right: -8px;
+  box-shadow: var(--shadow);
+}
+
+.name {
+  display: block;
+  width: 170px;
+  margin-top: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.number {
+  display: block;
+  max-width: 170px;
+  margin-top: 8px;
+}
+
+.text {
+  width: 400px;
+  height: 30px;
+  margin: auto 70px;
+  overflow: hidden;
+  color: var(--text-color);
+}
+
+.time {
+  display: block;
+  margin: auto auto auto 0;
+  color: var(--date-time-color);
+}
+
+.date {
+  display: block;
+  margin: auto;
+  color: var(--date-time-color);
+}

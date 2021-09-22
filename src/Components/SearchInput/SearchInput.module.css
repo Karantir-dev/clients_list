@@ -3,7 +3,6 @@
   padding-left: 30px;
   border: none;
   outline: none;
-  background-color: #fff;
 }
 
 .wrapper {
@@ -13,11 +12,19 @@
   margin: 25px 0;
   border-radius: 3px;
   overflow: hidden;
-  box-shadow: 2px 2px 9px 0px rgba(61, 61, 61, 0.7);
+  box-shadow: var(--shadow);
+  background-color: #fff;
 }
 
-.btn {
-  border: none;
-  outline: none;
-  background-color: #fff;
+.btnCancelIcon {
+  width: 21px;
+  height: 21px;
+  padding: 3px;
+  border-radius: 50%;
+  background-color: rgba(139, 145, 221, 0.4);
+}
+
+.btnSearch {
+  padding: 0 5px;
+  margin: 0 20px;
 }

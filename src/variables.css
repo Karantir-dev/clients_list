@@ -7,4 +7,5 @@
   --female-color: rgba(246, 87, 110, 0.4);
   --male-color: rgba(139, 145, 221, 0.4);
   --accent-number-color: #2c7dfa;
+  --shadow: 2px 2px 15px rgba(187, 187, 187, 0.7);
 }

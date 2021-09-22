@@ -1,14 +1,30 @@
 import s from './SearchInput.module.css'
+import Icon from '../Icon'
 
-const SearchInput = function () {
+import InputMask from 'react-input-mask'
+
+const SearchInput = function ({ query, setQuery }) {
   return (
     <div className={s.wrapper}>
-      <input type="text" className={s.input} />
-      <button type="button" className={s.btn}>
-        clear
+      <InputMask
+        className={s.input}
+        type="text"
+        mask="999 999 99 99"
+        maskChar=" "
+        value={query}
+        onChange={e => setQuery(e.target.value)}
+      />
+      <button
+        className={s.btnCancel}
+        type="button"
+        onClick={() => setQuery('')}
+      >
+        <div className={s.btnCancelIcon}>
+          <Icon className={s.icon} name="cancel" size="15px" />
+        </div>
       </button>
-      <button type="button" className={s.btn}>
-        search
+      <button className={s.btnSearch} type="button">
+        <Icon name="search" size="20px" />
       </button>
     </div>
   )
