@@ -1,7 +1,7 @@
-import s from './SearchInput.module.css'
+import InputMask from 'react-input-mask'
 import Icon from '../Icon'
 
-import InputMask from 'react-input-mask'
+import s from './SearchInput.module.css'
 
 const SearchInput = function ({ query, setQuery }) {
   return (
@@ -20,7 +20,7 @@ const SearchInput = function ({ query, setQuery }) {
         onClick={() => setQuery('')}
       >
         <div className={s.btnCancelIcon}>
-          <Icon className={s.icon} name="cancel" size="15px" />
+          <Icon className={s.icon} name="cancel" size="12px" />
         </div>
       </button>
       <button className={s.btnSearch} type="button">

@@ -9,8 +9,15 @@
   position: relative;
   border: 2px solid #fff;
   vertical-align: middle;
-  background-color: var(--male-color);
   box-shadow: var(--shadow);
+}
+
+.male {
+  background-color: var(--male-color);
+}
+
+.female {
+  background-color: var(--female-color);
 }
 
 .messenger {
@@ -31,6 +38,10 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.boldFont {
+  font-weight: 500;
 }
 
 .text {

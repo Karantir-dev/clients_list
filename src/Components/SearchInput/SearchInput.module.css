@@ -17,14 +17,17 @@
 }
 
 .btnCancelIcon {
-  width: 21px;
-  height: 21px;
-  padding: 3px;
+  width: 16px;
+  height: 16px;
+  padding: 2px;
   border-radius: 50%;
   background-color: rgba(139, 145, 221, 0.4);
 }
 
 .btnSearch {
   padding: 0 5px;
-  margin: 0 20px;
+  margin: 0 20px 0 30px;
+}
+.icon {
+  vertical-align: super;
 }
