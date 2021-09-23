@@ -3,7 +3,12 @@ import Icon from '../Icon'
 
 import s from './SearchInput.module.css'
 
-const SearchInput = function ({ query, setQuery }) {
+interface IProps {
+  query: string
+  setQuery: (query: string) => void
+}
+
+const SearchInput = function ({ query, setQuery }: IProps) {
   return (
     <div className={s.wrapper}>
       <InputMask

@@ -4,11 +4,12 @@ import axios from 'axios'
 import SearchInput from './Components/SearchInput/SearchInput'
 import TableHeader from './Components/TableHeader/TableHeader'
 import ContactList from './Components/ContactList/ContactList'
+import IContact from './Contact.interface'
 
 import s from './App.module.css'
 
 function App() {
-  const [contacts, setContacts] = useState()
+  const [contacts, setContacts] = useState<IContact[]>([])
   const [isLoading, setIsLoading] = useState(true)
   const [query, setQuery] = useState('')
 

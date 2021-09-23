@@ -2,7 +2,12 @@ import Icon from '../Icon'
 
 import s from './TableHeader.module.css'
 
-const TableHeader = function ({ quantity, fetchContacts }) {
+interface IProps {
+  quantity: number
+  fetchContacts: () => void
+}
+
+const TableHeader = function ({ quantity, fetchContacts }: IProps) {
   return (
     <div className={s.wrapper}>
       <button className={s.refreshBtn} type="button" onClick={fetchContacts}>

@@ -1,6 +1,11 @@
 import s from './Highlighter.module.css'
 
-const Highlight = ({ query, number }) => {
+interface IProps {
+  query: string
+  number: string
+}
+
+const Highlight = ({ query, number }: IProps) => {
   const startOfNumber = number.slice(0, query.trim()?.length)
   const isEqual = startOfNumber === query.trim()
 

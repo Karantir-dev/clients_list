@@ -1,6 +1,12 @@
 import sprite from '../images/sprite.svg'
 
-const Icon = ({ className, name, size }) => (
+interface IIcon {
+  className?: string
+  name: string
+  size: string
+}
+
+const Icon = ({ className, name, size }: IIcon) => (
   <svg className={className} width={size} height={size}>
     <use xlinkHref={`${sprite}#icon-${name}`} />
   </svg>

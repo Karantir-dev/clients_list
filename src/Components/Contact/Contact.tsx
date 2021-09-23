@@ -1,9 +1,15 @@
 import Icon from '../Icon'
 import Highlighter from '../Highlighter/Highlighter'
+import IContact from '../../Contact.interface'
 
 import s from './Contact.module.css'
 
-const Contact = function ({ contact, query }) {
+interface IProps {
+  contact: IContact
+  query: string
+}
+
+const Contact = function ({ contact, query }: IProps) {
   const { name, gender, messenger, number, text, date, isRead } = contact
 
   return (
